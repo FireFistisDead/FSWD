@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function dosum(){
+        var a = document.getElementById("txt1").value
+        var b = document.getElementById("txt2").value
+        var c = parseInt(a)+parseInt(b)
+        document.getElementById("ans").innerHTML = "Sum is " + c
+        }
+        function dosub(){
+        var a = document.getElementById("txt1").value
+        var b = document.getElementById("txt2").value
+        var c = parseInt(a)-parseInt(b)
+        document.getElementById("ans").innerHTML = "Sum is " + c
+        }
+        
+    </script>
+</head>
+<body>
+    No1 : <input type="text" autocomplete="off" id="txt1"/>
+    No2 : <input type="text" autocomplete="off" id="txt2"/>
+    <input type="button" onclick = "dosum()" value="+" />
+    <input type="button" onclick="dosub()" value="-"/>
+    <p id = "ans" ></p>
+</body>
+</html>

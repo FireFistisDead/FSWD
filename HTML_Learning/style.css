@@ -1,0 +1,22 @@
+style{
+    color : red;
+    background-color: aquamarine;
+}
+p{
+    color : blue;
+    background-color: yellow;
+}
+div{
+        height : 20px;
+        width : 45px;
+        padding: 10px;
+        background-color: black;
+        /* border-right: 10px; */
+        /* padding-right: 10px; */
+        border-radius: 10px;
+        color : red;
+    }
+div:hover{
+        background-color: red;
+        color : black;
+}

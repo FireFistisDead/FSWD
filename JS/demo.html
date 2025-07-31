@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*let a = 10
+        let b = 20
+        let c = a + b
+        document.writeln(" A value is " + a)
+        document.writeln(" B value is " + b)
+        document.writeln("C value is " + c)
+        
+        document.writeln(`A value is ${a} B value is ${b} C value is ${c}`)
+        document.write("<table border = 1>")
+        for(var i = 0; i <= 100; i++){
+            document.write(`<tr><th>${i}<th></tr>`)
+            document.write("<td>")
+            }   
+            // document.write("i " + i)*/
+        var arr = [10, 20, 30, 40, 50]
+        document.write(arr)
+
+        for(var i; i < arr.length; i++){
+            document.writeln(arr[i])
+        }
+        for(i in arr){
+            document.writeln(`Index is ${i} Value is ${arr[i]}` )
+        }
+
+        for (i of arr){
+            document.writeln("Value of Array is" + arr[i])
+        }
+
+        arr.forEach(function(value, index, a){
+            document.writeln("Tndex is " + i)
+        })
+        function dosum(a,b){
+            return a + b
+        }
+        document.write(dosum(10,20))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

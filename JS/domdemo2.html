@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getdata(){
+            var a = document.getElementById("txt1").innerHTML
+            document.getElementById("ans").innerHTML = a
+        }
+        function setdata(){
+            document.getElementById("txt1").innerHTML = "Hello JS"
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="getdata()" value="Get">
+    <input type="button" onclick="setdata()" value="set">
+    <p id="txt1"> I am Yash </p>
+    <p id = "ans"></p>
+</body>
+</html>

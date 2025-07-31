@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function demo(){
+            alert("Hello")
+        }
+        function demo2(){
+            var a = confirm("Are you sure")
+            if(a){
+                alert("Sucessfully Deleted")
+            }
+        }
+        function demo3(){
+            var a = prompt("Enter Number 1", 0)
+            var b = prompt("Enter Number 1", 0)
+            var c = parseInt(a) + parseInt(b)
+            document.writeln(c)
+        }
+    </script>
+</head>
+<body>
+    <input type ="button" onclick="demo()" value="Clickme1"/>
+    <input type="button" onclick="demo3()" value="Clickme2"/>
+</body>
+</html>

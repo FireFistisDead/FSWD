@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* Use the image as a background, cover the whole page, and add a dark overlay for readability */
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 8px #000;
+            margin-bottom: 30px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 4px solid #fff;
+            max-width: 90vw;
+            max-height: 70vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Image Demo Page</h1>
+    <img src="img.jpg" alt="Description of Image" width="1000">
+</body>
+</html>
