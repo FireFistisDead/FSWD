@@ -4,12 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import Login from './login.jsx'
 import Register_Class from './login_using_class.jsx'
-import Signup from './Signup.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    {/* <Login /> */}
-    <Signup/>
+    <Login />
     {/* <Register_Class /> */}
   </StrictMode>,
 )
